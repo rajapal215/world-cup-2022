@@ -185,3 +185,53 @@ color: #B9B9B9;
     display: flex;
     justify-content:space-evenly;
 }
+ /*------------------Website 2 CSS --------------
+ /* ---------------                 -------------- */
+
+ .big-latter{
+    font-size: 70px;
+    background-color: #161616;
+    color: #FFFFFF;
+ }
+ .middle-part{
+    font-size: 16px;
+    background-color: #161616;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ }
+ .batn{
+    font-size: 29px;
+    background-color: red;
+    width: 187px;
+    height: 56px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 16px 25px;
+ }
+ .banar-img{
+    width: 520px;
+    height: 400px;
+    background-color: #161616;
+    margin-top: 90px;
+    margin-right: 70px;
+    text-decoration: none;
+ }
+ .small-banar{
+    width: 531px;
+    height: 324px;
+    margin-top: 110px;
+    margin-left:105px;
+ }
+ .containar{
+    display: flex;
+    justify-content: center;
+    background-color: #161616;
+    border-radius:15px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+ }
