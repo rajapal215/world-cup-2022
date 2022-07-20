@@ -349,3 +349,63 @@ hr{
     font-size: 40px;
     gap: 20px;
  }
+
+ /* --------------Media Queries----------
+   ---------- /
+
+   /* --------Mobile Device---------- */
+   @media only screen and(max-width:688px) {
+    .banner-container{
+        background-color: #DD0000;
+        font-size: 0px;
+        height: 0;
+
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+        .right-container{
+            display: none;
+            margin-top: 34px;
+            margin-left: 500px;}
+
+        .goal{margin-top: 420%;
+            width: 850px;
+
+
+        }
+
+
+        }
+        /* tablet device */
+        @media only screen and (min-width:688px)and (max-width:992px) 
+        {
+            .banner-container {
+                margin: 0;
+
+            }
+            .single-blog{
+                display: none;
+                margin-left: 90px;
+            }
+            .right-containe{
+                    display: grid;
+                    grid-template-columns: repeat(2,540px);
+                    align-content: space-between;
+                    justify-content:end ;
+
+            }
+            .goal{
+                margin-top: 150%;
+                width: 990px;
+
+            }
+            
+        }
+
+
+
+    }
+   }
