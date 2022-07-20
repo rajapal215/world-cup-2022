@@ -21,18 +21,17 @@ body{
     color: white;
     border-radius: 10px;
     margin-top: 60px;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 80px;
+    margin-right: 60px;
     
 }
-.container{
-    display: flex;
-}
+
+
 .banner-left{
     text-align:left;
     width: 531px;
     height: 424px;
-    margin-left:106px;
+    margin-left:100px;
     margin-top: 110px;
 }
 .banner-title{
@@ -64,15 +63,14 @@ body{
 .single-blogs{
     display:flex;
     flex-direction: column;
-    width: 312px;
-    height: 312px;
-    left: 40px;
-    top: 826px;
+    width: 290px;
+    height: 280px;
     background: #161616;
     border-radius: 10px;
     margin-top: 50px;
-    padding: 90px;
-    margin-left: 140px;
+    margin-left: 665px;
+    padding: 45px;
+    
 }
 /*----- single blogs btn----- */
 .button{
@@ -123,9 +121,67 @@ body{
 }
 .match-duration{
     display: flex;
-    text-align:inherit;
+    justify-content: space-between;
     width: 143px;
     height: 26px;
     margin-top: 20px;
     margin-left: 20px;
+}
+.right-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    margin-left: 990px;
+    margin-top: 58px;
+    width: 450px;
+    height: 362px;
+    border-radius: 10px 10px 0px 0px;
+    
+
+}
+/* -------main container------- */
+#main-container{
+    display: flex;
+    justify-content: center;
+    width: 265px;
+    height: 700px;
+}
+.goal{
+    text-align: center;
+    width: 1300px;
+    height: 444px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 35%;
+    margin-left: 2%;
+    padding-left: 5%;
+    padding-top: 10%;
+    background-color: #161616;
+    
+}
+hr{
+    align-items:flex-start;
+    margin-top: 6%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right:10%: ;
+    
+    
+}
+.footer-bar{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+font-size: 16px;
+line-height: 34px;
+padding: 10px;
+margin-inline: 10px;
+color: #B9B9B9;
+
+}
+.icon{
+    color: aquamarine;
+    display: flex;
+    justify-content:space-evenly;
 }
